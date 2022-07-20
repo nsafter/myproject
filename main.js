@@ -123,6 +123,8 @@ function moveCamera() {
 document.body.onscroll = moveCamera;
 moveCamera();
 
+console.log(torus)
+
 // Animation Loop
 
 function animate() {
